@@ -16,10 +16,10 @@
       </form>
     </div>
         <div class=" relative w-full h-full  items-center justify-end flex">
-            <img src="@/assets/heroImages/group1.svg"  class=" absolute" />
-            <img src="@/assets/heroImages/group2.svg"  class=" absolute" />
-            <img src="@/assets/heroImages/group3.svg"  class=" absolute" />
-            <img src="@/assets/heroImages/group4.svg"  class=" absolute" />
+            <img src="@/assets/group1.svg"  class=" absolute" />
+            <img src="@/assets/group2.svg"  class=" absolute" />
+            <img src="@/assets/group3.svg"  class=" absolute" />
+            <img src="@/assets/group4.svg"  class=" absolute" />
         </div>
     </div>
 </template>
