@@ -3,48 +3,49 @@
 </script>
 
 <template>
-    <div>
-        <div>
-           <span>Product</span>
-           <span>Features</span>
-           <span>Support</span>
-           <span>Transparency</span>
-           <span>Subscribe to newsletter</span>
-        </div>
-        <div>
-           <nav>Fashion</nav>
-           <nav>Customise</nav>
-           <nav>Get Help</nav>
-           <nav>Terms & Connditions</nav>
-           <form @submit.prevent="" class=" space-x-3 flex  border-2 rounded-full w-5/6 border-primary3 py-2 pr-2 pl-5">
-            <input type="text" placeholder="Enter your email" class="w-full outline-none text-xl font-light text-black" />
-            <button type="submit" class="bg-primary text-white text-xl py-2 px-12 rounded-3xl hover:shadow-md hover:bg-primary2 hover:text-primary transition-all duration-500 ease-linear">
+    <div class=" flex px-28 w-full justify-between pb-28">
+       <ul class=" space-y-3">
+        <li class="text-primary font-bold">Product</li>
+        <li>Fashion</li>
+        <li>Gadgets </li>
+        <li>Home Appliances</li>
+        <li>Office & Work Tools</li>
+       </ul>
+       <ul class=" space-y-3">
+        <li class="text-primary font-bold">Features</li>
+        <li>Customise</li>
+        <li>Delivery</li>
+        <li>Apply Coupon</li>
+        <li>Referral Bonus</li>
+       </ul>
+       <ul class=" space-y-3">
+        <li class="text-primary font-bold">Support</li>
+        <li>Get Help</li>
+        <li>FAQ</li>
+        <li>Contact Us</li>
+       </ul>
+       <ul class=" space-y-3">
+        <li class="text-primary font-bold">Transparency</li>
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+        <li>Cookies</li>
+       </ul>
+        <div class=" space-y-4">
+            <p class="text-primary font-bold">Subscribe to newsletter</p>
+           <form @submit.prevent="" class="flex  rounded-lg">
+
+                <input type="text" placeholder="Enter your email" class="w-full rounded-l-lg px-3 py-2 outline-none text-xl font-light text-black bg-primary2" />
+            <button type="submit" class="bg-primary rounded-r-lg px-3 text-white">
                 Subscribe
                 </button>
           </form>
-        </div>
-        <div>
-            <nav>Gadgets</nav>
-            <nav>Delivery</nav>
-            <nav>FAQ</nav>
-            <nav>Privacy Policy</nav>
-            <div>
-                <img src="@/assets/facebook.svg"  class=" " />   
-                <img src="@/assets/twitter.svg"  class=" " />
-                <img src="@/assets/youtube.svg"  class=" " />
-                <img src="@/assets/linkedin.svg"  class=" " />
-                <img src="@/assets/search.svg"  class=" " />
+            <div class="flex space-x-2 ">
+                <img src="@/assets/facebook.svg"  class=" w-2" />   
+                <img src="@/assets/twitter.svg"  class=" w-5" />
+                <img src="@/assets/youtube.svg"  class="w-5 " />
+                <img src="@/assets/linkedin.svg"  class=" w-5" />
+                <img src="@/assets/search.svg"  class=" w-5" />
             </div>
-        </div>
-        <div>
-            <nav>Home Appliances</nav>
-            <nav>Apply Coupon</nav>
-            <nav>Contact Us</nav>
-            <nav>Cookies</nav>
-        </div>
-        <div>
-            <nav>Office & Work Tools</nav>
-            <nav>Referral Bonus</nav>
         </div>
     </div>
 </template>
