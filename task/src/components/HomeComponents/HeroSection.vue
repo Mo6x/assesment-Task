@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-    <div class="  flex  justify-between items-center h-screen px-28"> 
+    <div class="  flex  justify-between items-center pb-28 pt-32 px-28"> 
      <div class=" w-10/12 space-y-7 ">
        <h1 class=" text-8xl font-bold">Get digital Gifts Cards at Ease</h1>
        <p class="text-2xl text-gray-700 w-11/12 font-light tracking-wider ">
