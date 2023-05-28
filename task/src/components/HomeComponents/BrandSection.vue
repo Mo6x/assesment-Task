@@ -98,18 +98,18 @@ const brands=[
 </script>
 
 <template>
-    <div class=" pt-52 px-28">
+    <div class=" pt-36 md:pt-52 md:px-28 px-10">
         <div class=" w-full mb-20 text-center">
             <h1 class=" text-4xl font-bold mb-3">Top Brands</h1>
-            <p class=" w-1/4 text-gray-500 text-center  mx-auto">
+            <p class=" md:w-1/4 text-gray-500 text-center  mx-auto">
             Simply place an  order and have it delivered to any recipient residentail address
             </p>
         </div>
         <!-- CARD -->
 
-        <div class=" flex flex-wrap gap-5 w-full pl-32">
-        <div v-for="(brand, index) in brands" :key="index" class="border rounded-3xl w-1/5 flex-col inline-flex"> 
-            <div class="w-full h-full rounded-t-3xl ">
+        <div class=" flex  flex-wrap gap-5 w-full md:pl-32">
+        <div v-for="(brand, index) in brands" :key="index" class="border rounded-3xl md:w-1/5 flex-col inline-flex"> 
+            <div class="w-full  h-full rounded-t-3xl ">
                 <img :src="brand.cover"  class=" object-cover w-full h-full" />
             </div>
             <div class="p-4">

@@ -5514,6 +5514,11 @@ vue3-carousel@^0.3.1:
   resolved "https://registry.yarnpkg.com/vue3-carousel/-/vue3-carousel-0.3.1.tgz#d001be7dea416dc2f4e66afc4d56af66696dc117"
   integrity sha512-86vUkNPBzL2PVuR9w6hUsI90ccFjLp+K8cSFpRTISf+SjUQY3fMHc5CFF5MUL62v1xYYm27zEBmQupO9VQx9Kw==
 
+vue3-icons@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vue3-icons/-/vue3-icons-0.1.0.tgz#f1e0ccf5dca7189d46778f763b076091b2d9539f"
+  integrity sha512-ZFN1zxYbmXhp76RTxhaM6hgkQ5B8Y9+09D/hvTC0KSN9VDp4h0NmfbMvFdvle0FpxrLBDlKo3dJXh11SP86UIQ==
+
 vue@^3.2.13:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.3.4.tgz#8ed945d3873667df1d0fcf3b2463ada028f88bd6"

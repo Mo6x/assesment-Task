@@ -33,7 +33,7 @@ const slider = [
 
 
 <template>
-  <div class=" mt-80 mb-36 w-full px-48 ">
+  <!-- <div class=" mt-80 mb-36 w-full px-48 ">
     <carousel :items-to-show="1">
       <slide v-for="(slide, index) in slider" :key="index">
         <div class=" flex flex-col items-center space-y-4">
@@ -46,6 +46,25 @@ const slider = [
         </div>
       </slide>
   
+      <template #addons>
+        <navigation />
+      </template>
+    </carousel>
+  </div> -->
+
+  <div class="mt-80 mb-36 w-full px-6 sm:px-10 md:px-16 lg:px-20">
+    <carousel :items-to-show="1">
+      <slide v-for="(slide, index) in slider" :key="index">
+        <div class="flex flex-col items-center space-y-4">
+          <div class="text-3xl font-bold">{{ slide.title }}</div>
+          <p class="text-xl w-1/2 leading-loose text-gray-500">{{ slide.desc }}</p>
+          <div class="flex items-center space-x-3">
+            <img :src="slide.icon" />
+            <span>{{ slide.name }}</span>
+          </div>
+        </div>
+      </slide>
+
       <template #addons>
         <navigation />
       </template>
